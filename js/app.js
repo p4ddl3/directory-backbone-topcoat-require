@@ -26,12 +26,13 @@ require.config({
 
 require(['jquery', 'backbone', 'app/router'], function ($, Backbone, Router) {
 
-    var router = new Router();
+	$("body").html("<span>test</span>");
+    /*var router = new Router();
 
     $("body").on("click", ".back-button", function (event) {
         event.preventDefault();
         window.history.back();
     });
 
-    Backbone.history.start();
+    Backbone.history.start();*/
 });
